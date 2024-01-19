@@ -2,6 +2,7 @@ import { Body, Controller, Get, Post, Put } from '@nestjs/common';
 import {AppService} from './app.service';
 import {IPost, PostDTO} from "./app.dto";
 import {ApiTags} from "@nestjs/swagger";
+let a = 0;
 
 @ApiTags("App")
 @Controller("/api")
