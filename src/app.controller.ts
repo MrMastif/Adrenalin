@@ -1,4 +1,4 @@
-import {Body, Controller, Get, Post, Put} from '@nestjs/common';
+import { Body, Controller, Get, Post, Put } from '@nestjs/common';
 import {AppService} from './app.service';
 import {IPost, PostDTO} from "./app.dto";
 import {ApiTags} from "@nestjs/swagger";
@@ -12,6 +12,7 @@ export class AppController {
     @Get("/main")
     getHello(): object {
         // return this.appService.getHello();
+        console.log("dfjgkjte")
         let a = {a: 0}
         return a
     }
